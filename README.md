@@ -3,7 +3,6 @@
 An implementation of the neural style in PyTorch! This notebook implements [Image Style Transfer Using Convolutional Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) by Leon Gatys, Alexander Ecker, and Matthias Bethge. Color preservation/Color transfer is based on the 2nd approach of discussed in [Preserving Color in Neural Artistic Style Transfer](https://arxiv.org/pdf/1606.05897.pdf) by Leon Gatys, Matthias Betge, Aaron Hertzmann, and Eli Schetman.
 
 This implementation is inspired by the implementations of:
-* Anish Athalye: [Neural Style in Tensorflow](https://github.com/anishathalye/neural-style),
 * Justin Johnson: [Neural Style in Torch](https://github.com/jcjohnson/neural-style), and
 * ProGamerGov: [Neural Style in PyTorch](https://github.com/ProGamerGov/neural-style-pt)
 
@@ -64,13 +63,6 @@ The included notebook file is a `Google-Colab-ready` notebook! Uncomment and run
 !wget -c https://web.eecs.umich.edu/~justincj/models/vgg19-d01eb7cb.pth
 !mkdir models
 !cp vgg19-d01eb7cb.pth models/
-
-# Download Images
-!wget -c https://github.com/iamRusty/neural-style-pytorch/archive/master.zip
-!unzip -q master.zip
-!mkdir images
-!cp neural-style-pytorch-master/images/1-content.png images
-!cp neural-style-pytorch-master/images/1-style.jpg images
 ```
 ## Options
 ### Image
