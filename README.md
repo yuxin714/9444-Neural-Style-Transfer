@@ -8,26 +8,6 @@ This implementation is inspired by the implementations of:
 
 The [original caffe pretrained weights of VGG19](https://github.com/jcjohnson/pytorch-vgg) were used for this implementation, instead of the pretrained VGG19's in PyTorch's model zoo.
 
-## Examples: Style Transfer
-### Catriona Gray and Woman I by Willem de Kooning
-![Catriona](https://i.imgur.com/Cx7WEZo.jpg)
-
-### Janelle Monae and Starry Night by Vincent van Gogh
-![Janelle Monae](https://i.imgur.com/WWq6I1U.jpg)
-
-### Andrew Y. Ng and Oil Painting of a Girl in Rain
-![AndrewYNg](https://i.imgur.com/cO9YdZI.jpg)
-
-### Style Transfers of Golden Bridge
-![dubnation](https://i.imgur.com/K2eCqjA.jpg)
-
-### [Some Old Man](https://www.google.com/search?q=philippine+idiot&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi0p_PDqK3fAhVIabwKHRWeCPQQ_AUIDigB&biw=2560&bih=1311) + Increasing Style Weights of Starry Night
-![Philippine Idiot](https://i.imgur.com/bK8bnCN.jpg)
-
-## Examples: Style Transfer while Preserving the original color
-### Janelle Monae and Starry Night by Vincent van Gogh + Preserve Original Color
-![Janelle Monae Preserve](https://i.imgur.com/asrUS0A.jpg) 
-
 ## Requirements
 `NOTE`: For `Google-Colab users` - All data files and dependencies can be installed by running the uppermost cell of the notebook! See `Usage`!
 
@@ -63,6 +43,14 @@ The included notebook file is a `Google-Colab-ready` notebook! Uncomment and run
 !wget -c https://web.eecs.umich.edu/~justincj/models/vgg19-d01eb7cb.pth
 !mkdir models
 !cp vgg19-d01eb7cb.pth models/
+
+# Download Images
+!wget -c https://github.com/iamRusty/neural-style-pytorch/archive/images.zip
+!unzip -q images.zip
+!mkdir images
+!cp neural-style-pytorch-master/images/1-content.png images
+!cp neural-style-pytorch-master/images/1-style.jpg images
+!cp neural-style-pytorch-master/images/1-color.jpg images
 ```
 ## Options
 ### Image
