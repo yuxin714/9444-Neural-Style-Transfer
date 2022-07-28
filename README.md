@@ -47,10 +47,10 @@ The included notebook file is a `Google-Colab-ready` notebook! Uncomment and run
 # Download Images
 !wget -c https://github.com/iamRusty/neural-style-pytorch/archive/images.zip
 !unzip -q images.zip
-!mkdir images
-!cp neural-style-pytorch-master/images/1-content.png images
-!cp neural-style-pytorch-master/images/1-style.jpg images
-!cp neural-style-pytorch-master/images/1-color.jpg images
+# !mkdir images
+# !cp neural-style-pytorch-master/images/1-content.png images
+# !cp neural-style-pytorch-master/images/1-style.jpg images
+# !cp neural-style-pytorch-master/images/1-color.jpg images
 ```
 ## Options
 ### Image
