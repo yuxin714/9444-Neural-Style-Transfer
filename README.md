@@ -1,4 +1,4 @@
-# neural-style: Neural Style in Pytorch! :art:
+# 9444 Neural Style and color transfer in Pytorch
 
 An implementation of the neural style in PyTorch! This notebook implements [Image Style Transfer Using Convolutional Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) by Leon Gatys, Alexander Ecker, and Matthias Bethge. Color preservation/Color transfer is based on the 2nd approach of discussed in [Preserving Color in Neural Artistic Style Transfer](https://arxiv.org/pdf/1606.05897.pdf) by Leon Gatys, Matthias Betge, Aaron Hertzmann, and Eli Schetman.
 
