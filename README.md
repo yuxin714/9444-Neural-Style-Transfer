@@ -45,7 +45,6 @@ The included notebook file is a `Google-Colab-ready` notebook! Uncomment and run
 !cp vgg19-d01eb7cb.pth models/
 
 # Download Images
-!wget -c https://github.com/iamRusty/neural-style-pytorch/archive/images.zip
 !unzip -q images.zip
 # !mkdir images
 # !cp neural-style-pytorch-master/images/1-content.png images
